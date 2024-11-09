@@ -11,7 +11,7 @@ import TableList from "./components/TableList";
 import Pagination from "./components/Pagination";
 
 export type Product = {
-  id: number | string;
+  id: number;
   title: string;
   description: string;
   catergory: string;
@@ -19,7 +19,6 @@ export type Product = {
   price: number;
   images: string[];
   brand: string;
-  [key: string]: string | number | boolean | string[];
 };
 
 type TPagination = {
