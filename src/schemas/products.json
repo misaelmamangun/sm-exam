@@ -1,0 +1,28 @@
+{
+  "name": "Products",
+  "fields": [
+    {
+      "id": "thumbnail",
+      "type": "image",
+      "title": "Thumbnail"
+    },
+    {
+      "id": "title",
+      "type": "string",
+      "title": "Name",
+      "child": [
+        {
+          "id": "description",
+          "type": "string",
+          "title": "Description"
+        }
+      ]
+    },
+    {
+      "id": "price",
+      "type": "currency",
+      "title": "Price",
+      "currency": "PHP"
+    }
+  ]
+}
