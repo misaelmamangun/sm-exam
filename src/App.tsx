@@ -121,7 +121,7 @@ const App: React.FC = () => {
 
       <h1>{text}</h1>
 
-      {products.length && products ? (
+      {products && products.length ? (
         <>
           <TableList name={"products"} items={paginatedItems} />
           <Pagination
